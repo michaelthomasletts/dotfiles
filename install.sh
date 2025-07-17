@@ -8,3 +8,5 @@ ln -sf "$PWD/.aliases" "$HOME/.aliases"
 ln -sf "$PWD/.gitconfig" "$HOME/.gitconfig"
 
 echo "Done. Now run: source ~/.zshrc"
+
+open "$PWD/terminal-pro-profile.terminal"
