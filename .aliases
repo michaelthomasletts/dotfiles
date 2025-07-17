@@ -1,0 +1,13 @@
+alias python=python3
+alias ls='ls -G'
+alias rm='trash'
+alias cat=bat
+alias diskusage='du -sh * 2>/dev/null'
+alias list='ls -lhA'
+alias up='cd ..'
+alias up2='cd ../..'
+alias gitstatus='git status -sb'
+alias reload='source ~/.zshrc'
+alias aliases='grep "^alias " ~/.aliases | sort'
+alias findalias='alias | fzf | sort'
+alias down='cd $(find . -maxdepth 1 -type d | sed 1d | fzf)'
